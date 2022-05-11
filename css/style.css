@@ -52,11 +52,17 @@ header{
 	color: #333333;
 	height: 72px;
 }
+#header-menu ul li a:hover{
+	text-shadow: 0 0 5px rgb(95, 94, 94, 0.5);
+}
 #container{
 	position: relative;
 }
 #container > div {
 	padding-bottom: 318px;
+}
+#container div img{
+	display: none;
 }
 #container div h2{
 	text-shadow: #4346FF;
@@ -89,7 +95,7 @@ header{
 	padding-top: 24px;
 	padding-bottom: 18px;
 }
-#container div > a {
+#container div div > a {
 	margin-right: 16px;
 	box-shadow: 0px 4px 2px #044DAE;
 	display: inline-block;
@@ -103,13 +109,24 @@ header{
 	font-weight: 800;
 	font-size: 20px;
 }
-#container div > a:nth-child(4){
+#container div div > a:hover {
+	background: linear-gradient(185.23deg, #50c7c7 -38.49%, #4eabcd 24.44%, #0453FC 134.39%, #a4a5b4 165.26%);
+}
+#container div div > a:nth-child(2){
 	background: linear-gradient(180deg, #B6AAFF -43.1%, #4346FF 115.52%);
 	box-shadow: 0px 4px 2px #2F0BBF;
 }
-#container div > a:nth-child(5){
+#container div div > a:nth-child(2):hover{
+	background: linear-gradient(180deg, #9488dd -43.1%, #4346FF 115.52%);
+    box-shadow: 0px 4px 2px #543bb9;
+}
+#container div div > a:nth-child(3){
 	background: linear-gradient(177.83deg, #FF95D5 -50.52%, #FF337C 118.79%);
 	box-shadow: 0px 4px 2px #AC0243;
+}
+#container div div > a:nth-child(3):hover{
+	background: linear-gradient(177.83deg, #e9b4d4 -50.52%, #ef3d7c 118.79%);
+    box-shadow: 0px 4px 2px #600327;
 }
 #container #social ul{
 	position: fixed;
@@ -129,6 +146,9 @@ header{
 	margin-bottom: 20px;
 	text-indent: -1000000px;
 }
+#container div ul li a:hover {
+    box-shadow: 0 0 5px #706b6b;
+}
 #container div ul li:nth-child(2) a{
 	background-image: url(img/telegram.png);
 	background-color: linear-gradient(203.2deg, #37AEE2 21.67%, #1E96C8 70%);;
@@ -140,7 +160,7 @@ header{
 	background-color: #02FAFD;
 }
 #intro {
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 	background-image: url(img/intro1.png), url(img/intro2.png), url(img/intro3.png);
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: 0px 190px,50px -170px, center right;
@@ -175,6 +195,7 @@ header{
 	color: #333333;
 }
 #hero h3{
+	margin-bottom: 20px;
 	font-style: normal;
 	font-weight: 800;
 	font-size: 48px;
@@ -189,6 +210,9 @@ header{
 	flex-wrap: wrap;
 	width: 728px;
 	position: relative;
+}
+#tokenomics img{
+	display: none;
 }
 #tokenomics > h3{
 	width: 100%;
@@ -592,4 +616,255 @@ footer{
 }
 #end p {
 	line-height: 50px;
+}
+@media screen and (max-width: 768px){
+	#home {
+		background-color: rgba(179, 176, 176, 0.062);
+		max-width: 100%;
+		background-image: none;
+	}
+	.wraper {
+		width: 100%;
+	}
+	header {
+		max-width: 768px;
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 70px;
+	}
+	h2,h3{
+		text-shadow: 0 0 5px black;
+	}
+	#logo a h1 {
+		font-size: 32px;
+		color: #494BDF;
+	}
+	#logo a{
+		text-align: center;
+		display: block;
+	}
+	#header-menu ul {
+		display: flex;
+		line-height: 50px;
+		justify-content: center;
+	}
+	#header-menu ul li {
+		text-align: center;
+		width: 30%;
+		padding: 0px;
+		text-transform: uppercase;
+		font-size: 15px;
+	}
+	#header-menu ul li a {
+		display: block;
+		color: #333333;
+		height: 50px;
+	}
+	header{
+		border-bottom: 1px solid rgb(95, 94, 94, 0.1);
+		padding: 0px;
+		background-color: white;
+	}
+	#container div div h2 {
+		margin: 0 auto;
+		padding-top: 20px;
+		text-shadow: #4346FF;
+		font-size: 80px;
+		line-height: 80px;
+		text-align: center;
+		max-width: 100%;
+	}
+	#container div h2 p:nth-child(2) {
+		display: none;
+	}
+	#container div{
+		padding-bottom: 2%;
+	}
+	#container div img{
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	#container div > p {
+		text-align: center;
+		margin: 0 auto;
+		max-width: 90%;
+	}
+	#container div div div{
+		max-width: 100%;
+		padding-top: 20px;
+		text-align: center;
+	}
+	#hero > h3{
+		margin-bottom: 20px;
+	}
+	#hero > h3 p:nth-child(2) {
+		display: none;
+	}
+	#hero > p {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+	#intro{
+		background-image: none;
+	}
+	#total {
+		margin: auto 20px;
+	}
+	#tokenomics {
+		margin-top: 329px;
+		flex-wrap: wrap;
+		width: 728px;
+		position: relative;
+	}
+	#tokenomics {
+		max-width: 100%;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+	#tokenomics img{
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	#tokenomics > h3 > p:nth-child(2){
+		display: none;
+	}
+	#roadmap {
+		background-image: none;
+		padding-top: 0px;
+	}
+	#roadmap >div {
+		display: block;
+	}
+	#starting {
+		background-size: 100% 74%;
+		background-image: url(img/roadmap1.png);
+		background-repeat: no-repeat;
+		width: 100%;
+		margin: 0;
+		margin-left: 1%;
+		margin-right: 2%;
+	}
+	#starting h3 {
+		text-align: center;
+	}
+	#starting h3 p:nth-child(2){
+		display: none;
+	}
+	#total {
+		margin: 0;
+	}
+	#total p:nth-child(1) {
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#total p:nth-child(2) {
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#total p:nth-child(3) {
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#total p:nth-child(4) {
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#community {
+		background-size: 100% 100%;
+		padding-top: 50px;
+		margin: 0;
+		margin-left: 1%;
+		margin-right: 2%;
+		width: 100%;
+	}
+	#community h4 {
+		width: 60%;
+	}
+	#launch {
+		background-size: 100% 100%;
+		padding-top: 50px;
+		margin: 0;
+		margin-left: 1%;
+		margin-right: 2%;
+		background-image: url(img/roadmap3.png);
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+	#trade {
+		background-image: none;
+		margin-right: 50px;
+	}
+	#trade .wraper h3 p:nth-child(2){
+		display: none;
+	}
+	#trade{
+		width: 100%;
+		padding: 0px;
+	}
+	#trade .wraper h3 {
+		font-style: normal;
+		font-size: 64px;
+		color: #4346FF;
+		text-align: center;
+		margin-top: 20px;
+	}
+	#last{
+		padding-bottom: 12px;
+		background-image: url(/css/img/trade2.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		margin-left: 2%;
+	}
+	#last h4{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	    padding-left: 5%;
+	}
+	#last div:nth-child(2){
+		margin: 0;
+		padding-left: 5%;
+		padding-right: 8px;
+	}
+	#fist{
+		background-image: url(/css/img/trade2.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		margin-left: 2%;
+		padding-bottom: 12px;
+	}
+	#fist h4{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	    padding-left: 5%;
+	}
+	#fist div:nth-child(2){
+		margin: 0;
+		padding-left: 5%;
+		padding-right: 8px;
+	}
+	
+	#bar a{
+		justify-content: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	#info{
+		display: block;
+	}
+	#add,#ew{
+		width: 100%;
+		margin: 0;
+		margin-left: 1%;
+		padding-bottom: 5px;
+	}
+	#container #social ul {
+		right: 1%;
+	}
 }
