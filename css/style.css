@@ -122,7 +122,7 @@ header{
 	display: block;
 	width: 72px;
 	height: 72px;
-	background-image: url(IMG/twitter.png);
+	background-image: url(img/twitter.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 50%;
@@ -130,11 +130,11 @@ header{
 	text-indent: -1000000px;
 }
 #container div ul li:nth-child(2) a{
-	background-image: url(IMG/telegram.png);
+	background-image: url(img/telegram.png);
 	background-color: linear-gradient(203.2deg, #37AEE2 21.67%, #1E96C8 70%);;
 }
 #container div ul li:nth-child(3) a{
-	background-image: url(IMG/youtube.png);
+	background-image: url(img/youtube.png);
 }
 #container div ul li a:hover{
 	background-color: #02FAFD;
@@ -217,28 +217,28 @@ header{
 #total p:nth-child(1){
 	width: 162px;
 	height: 162px;
-	background-image: url(IMG/tokenomics1.png),url(IMG/tokenomics1g.png);
+	background-image: url(img/tokenomics1.png),url(img/tokenomics1g.png);
 	line-height: 162px;
 }
 #total p:nth-child(2){
 	margin-top: 30px;
 	width: 132px;
 	height: 132px;
-	background-image: url(IMG/tokenomics2.png), url(IMG/tokenomics4.png);
+	background-image: url(img/tokenomics2.png), url(img/tokenomics4.png);
 	line-height: 132px;
 }
 #total p:nth-child(3){
 	margin-top: 30px;
 	width: 132px;
 	height: 132px;
-	background-image: url(IMG/tokenomics3.png);
+	background-image: url(img/tokenomics3.png);
 	line-height: 132px;
 }
 #total p:nth-child(4){
 	margin-top: 30px;
 	width: 132px;
 	height: 132px;
-	background-image: url(IMG/tokenomics4.png);
+	background-image: url(img/tokenomics4.png);
 	line-height: 132px;
 }
 #supply{
@@ -259,7 +259,7 @@ header{
 	width: 162px;
 }
 #roadmap{
-	background-image: url(IMG/block.png), url(IMG/block2.png);
+	background-image: url(img/block.png), url(img/block2.png);
 	background-repeat: no-repeat, no-repeat;
 	background-position: top left, top right;
 	padding-top: 160px;
@@ -289,7 +289,7 @@ header{
 	-webkit-text-stroke: 1px #4346FF;
 }
 #starting{
-	background-image: url(IMG/roadmap1.png);
+	background-image: url(img/roadmap1.png);
 	background-repeat: no-repeat;
 	background-position: 0px 100px;
 	width: calc((100% - 50px) /3 );
@@ -333,7 +333,7 @@ header{
 	padding-left: 50px;
 	align-items: center;
 	justify-content: center;
-	background-image: url(IMG/roadmap2.png);
+	background-image: url(img/roadmap2.png);
 	background-repeat: no-repeat;
 	width: calc((100% - 50px) /3 );
 	padding-bottom: 50px;
@@ -361,7 +361,7 @@ header{
 	padding-top: 90px;
 	margin: -80px auto;
 	padding-left: 50px;
-	background-image: url(IMG/roadmap3.png);
+	background-image: url(img/roadmap3.png);
 	background-repeat: no-repeat;
 	width: calc((100% - 50px) /3 );
 	padding-bottom: 50px;
@@ -387,7 +387,7 @@ header{
 	padding-bottom: 39px;
 }
 #trade{
-	background-image: url(IMG/trade1.png), url(IMG/trade2.png), url(IMG/trade3.png);
+	background-image: url(img/trade1.png), url(img/trade2.png), url(img/trade3.png);
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: bottom right, 145px 310px, top left;
 	margin-right: 50px;
@@ -538,14 +538,14 @@ footer{
 	content: ' ';
 	width: 28px;
 	height: 28px;
-	background-image: url(IMG/address.png);
+	background-image: url(img/address.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	top: 20px;
 	left: 0px;
 }
 #add div:nth-child(2) nav::before{
-	background-image: url(IMG/telegramft.png)
+	background-image: url(img/telegramft.png)
 }
 #ew{
 	width: 50%;
@@ -573,14 +573,14 @@ footer{
 	content: ' ';
 	width: 28px;
 	height: 28px;
-	background-image: url(IMG/mail.png);
+	background-image: url(img/mail.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	top: 20px;
 	left: 0px;
 }
 #ew div:nth-child(2) nav::before{
-	background-image: url(IMG/web.png)
+	background-image: url(img/web.png)
 }
 #end{
 	height: 50px;
