@@ -629,7 +629,6 @@ footer{
 	header {
 		max-width: 768px;
 		display: block;
-		padding-top: 10px;
 		padding-bottom: 70px;
 	}
 	h2,h3{
@@ -664,6 +663,8 @@ footer{
 		border-bottom: 1px solid rgb(95, 94, 94, 0.1);
 		padding: 0px;
 		background-color: white;
+		padding-top: 15px;
+
 	}
 	#container div div h2 {
 		margin: 0 auto;
