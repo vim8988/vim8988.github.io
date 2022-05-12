@@ -128,12 +128,12 @@ header{
 	background: linear-gradient(177.83deg, #e9b4d4 -50.52%, #ef3d7c 118.79%);
     box-shadow: 0px 4px 2px #600327;
 }
-#container #social ul{
+#social ul{
 	position: fixed;
 	top: 50px;
 	right: 142px;
 }
-#container div ul li a{
+#social ul li a{
 	top: 100px;
 	right: 147px;
 	display: block;
@@ -146,17 +146,17 @@ header{
 	margin-bottom: 20px;
 	text-indent: -1000000px;
 }
-#container div ul li a:hover {
+#social ul li a:hover {
     box-shadow: 0 0 5px #706b6b;
 }
-#container div ul li:nth-child(2) a{
+#social ul li:nth-child(2) a{
 	background-image: url(img/telegram.png);
 	background-color: linear-gradient(203.2deg, #37AEE2 21.67%, #1E96C8 70%);;
 }
-#container div ul li:nth-child(3) a{
+#social ul li:nth-child(3) a{
 	background-image: url(img/youtube.png);
 }
-#container div ul li a:hover{
+#social ul li a:hover{
 	background-color: #02FAFD;
 }
 #intro {
@@ -865,7 +865,7 @@ footer{
 		margin-left: 1%;
 		padding-bottom: 5px;
 	}
-	#container #social ul {
+	#social ul {
 		right: 1%;
 	}
 }
